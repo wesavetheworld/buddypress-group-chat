@@ -5,12 +5,12 @@
 * Author: Ruddernation Designs
 * Author URI: http://profiles.wordpress.org/ruddernation
 * Description: This plugin is used for BuddyPress to all Group creators to allow the use of TinyChat in groups,
-* The Chat also includes youtube/soundcloud for all users, Even if you're not a moderator. (This is of no association with another plugin called buddypress group tinychat! Cheeky Fucker, Both created from a skeleton plugin!)
-* Version: 1.3.8
+* The Chat also includes youtube/soundcloud for all users, Even if you're not a moderator.
+* Version: 1.4.4
 * Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
-* Tested up to: WordPress 4.1, BuddyPress 2.1.1
+* Tested up to: WordPress 4.1.1, BuddyPress 2.2.2
 * Site Wide Only: true
-* Date: 10th February 2015
+* Date: 11th April 2015
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * Important - Only load if BuddyPress Groups is activated! 
