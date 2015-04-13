@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: group chat, buddypress group chat,video chat, tinychat, chat,buddypress chat,buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.1
-Stable tag: 1.3.8
+Stable tag: 1.4.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -89,6 +89,16 @@ Example: http://www.mydomain.com/groups/groupname/ This will output the room nam
 = 1.2.6 =
 * I've had to update the core due to rocketplayer script being unable to work, SoI've disabled rocketscript if your sites use this by default.
 
+= 1.4.0 =
+* I've added account info to the chat so that all group members can private message each other in chat.
+
+= 1.4.3 =
+* It will now grab the correct username depending on your first name, This will also display a profile in your name on TinyChat.
+
+
 == Social Sites ==
+* Facebook - https://www.facebook.com/rndtc
+* Twitter - https://twitter.com/R_N_Designs
 * Github - https://github.com/ruddernation
 * WordPress - https://profiles.wordpress.org/ruddernation
+* Skype - ruddernation.designs
