@@ -97,8 +97,17 @@ Example: http://www.mydomain.com/groups/groupname/ This will output the room nam
 
 
 == Social Sites ==
+
+* Website - https://www.ruddernation.com
+
+* Room Spy - https://www.tinychat-spy.com
+
 * Facebook - https://www.facebook.com/rndtc
+
 * Twitter - https://twitter.com/R_N_Designs
+
 * Github - https://github.com/ruddernation
+
 * WordPress - https://profiles.wordpress.org/ruddernation
+
 * Skype - ruddernation.designs
