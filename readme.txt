@@ -4,8 +4,8 @@ Contributors: ruddernation
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FFAC7FBEBH6JE
 Tags: group chat, buddypress group chat,video chat, tinychat, chat,buddypress chat,buddypress video chat
 Requires at least: 3.6.0
-Tested up to: 4.1
-Stable tag: 1.4.4
+Tested up to: 4.2
+Stable tag: 1.4.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -94,6 +94,9 @@ Example: http://www.mydomain.com/groups/groupname/ This will output the room nam
 
 = 1.4.3 =
 * It will now grab the correct username depending on your first name, This will also display a profile in your name on TinyChat.
+
+= 1.4.6 =
+* When you click the share button in chat it will now grab the URL of the page you are on so you can paste to your social networks.
 
 
 == Social Sites ==
