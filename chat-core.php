@@ -1,7 +1,7 @@
 <?php
 define ( 'BP_TINYCHAT_GROUP_CHAT_IS_INSTALLED', 1 );
-define ( 'BP_TINYCHAT_GROUP_CHAT_VERSION', '1.4.6' );
-define ( 'BP_TINYCHAT_GROUP_CHAT_DB_VERSION', '1.4.6' );
+define ( 'BP_TINYCHAT_GROUP_CHAT_VERSION', '1.4.7' );
+define ( 'BP_TINYCHAT_GROUP_CHAT_DB_VERSION', '1.4.7' );
 if ( !defined( 'BP_TINYCHAT_GROUP_CHAT_SLUG' ) )
 	define ( 'BP_TINYCHAT_GROUP_CHAT_SLUG', 'Group Chat' );
 function bp_tinychat_group_chat_setup_globals() {
@@ -57,7 +57,7 @@ class BP_tinychat_group_chat extends BP_Group_Extension {
 			<div id="item-body">
 <style>#chat{height:98%;width:100%;left:0px;right:0px;bottom:0px;position:fixed;z-index:9999}</style>
 <div id="chat">
-<script  data-cfasync="false" src="https://www.ruddernation.info/info/js/slagmodified.js"></script>
+<script  data-cfasync="false" src="https://www.ruddernation.info/info/js/slagmodified.js?version=1.0"></script>
 	<script  data-cfasync="false" type='text/javascript'>
 var embed;
 embed = tinychat({room: "<?php echo $name?>",<?php {echo ' account:"'.$bp->loggedin_user->fullname.'"'?>,<?php echo 'nick:"'.$bp->loggedin_user->fullname.'"'; ?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"});
