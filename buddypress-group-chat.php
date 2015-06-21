@@ -1,6 +1,6 @@
 <?php
 /*
-* Plugin Name: BuddyPress Group Chat
+* Plugin Name: BuddyPress Group Chat - Only On Github
 * Plugin URI: https://wordpress.org/plugins/buddypress-group-chat/
 * Author: Ruddernation Designs
 * Author URI: http://profiles.wordpress.org/ruddernation
