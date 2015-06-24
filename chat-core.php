@@ -4,8 +4,8 @@ class BP_tinychat_group_chat extends BP_Group_Extension {
 		global $bp;
 		$this->name = 'Group Chat';
 		$this->slug = 'group-chat';
-		$this->create_step_position = 48;
-		$this->nav_item_position = 83;
+		$this->create_step_position = 78;
+		$this->nav_item_position = 96;
 		if ( groups_get_groupmeta( $bp->groups->current_group->id, 'bp_tinychat_group_chat_enabled' ) == '1' ) {
 			$this->enable_nav_item = true;
 		} else {
@@ -56,7 +56,7 @@ public	function display($group_id = null) {
 			<div id="item-body">
 <style>#chat{height:98%;width:100%;left:0px;right:0px;bottom:0px;position:fixed;z-index:9999}</style>
 <div id="chat">
-<script  data-cfasync="false" src="https://www.ruddernation.info/info/js/slagmodified.js?version=1.6"></script>
+<script  data-cfasync="false" src="https://www.ruddernation.info/info/js/slagmodified.js?version=1.7"></script>
 	<script  data-cfasync="false" type='text/javascript'>
 var embed;
 embed = tinychat({room: "<?php echo $name?>",<?php {echo ' account:"'.$bp->loggedin_user->fullname.'"'?>,<?php echo 'nick:"'.$bp->loggedin_user->fullname.'"'; ?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"});
