@@ -1,19 +1,19 @@
 <?php
 /*
-* Plugin Name: BuddyPress Group Chat - Only On Github
+* Plugin Name: BuddyPress Group Chat
 * Plugin URI: https://wordpress.org/plugins/buddypress-group-chat/
-* Author: Ruddernation Designs
+* Author: ruddernation
 * Author URI: http://profiles.wordpress.org/ruddernation
 * Description: This plugin is used for BuddyPress to all Group creators to allow the use of TinyChat in groups,
-* The Chat also includes youtube/soundcloud for all users, Even if you're not a moderator. - Now only being updated on Github.
-* Version: 1.5.2
-* Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
-* Tested up to: WordPress 4.2, BuddyPress 2.2.3.1
+* The Chat also includes youtube/soundcloud for all users, Even if you're not a moderator.
+* Version: 1.6.0
+* Requires at least: WordPress 4.0, BuddyPress 2.0
+* Tested up to: WordPress 4.3, BuddyPress 2.3
 * Site Wide Only: true
-* Date: 21st June 2015
+* Date: 24th June 2015
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Important - Only load if BuddyPress Groups is activated! 
+* Important - Only load if BuddyPress Groups is activated! - This will now check if it is enabled.
 */
 function bp_tinychat_group_chat_init() {
 	    global $wpdb;
@@ -24,7 +24,7 @@ function bp_tinychat_group_chat_init() {
 	return;
     }
 	require( dirname( __FILE__ ) . '/chat-core.php' );}
-add_action( 'bp_init', 'bp_tinychat_group_chat_init' , 82);
+add_action( 'bp_init', 'bp_tinychat_group_chat_init' , 96);
 function bp_tinychat_group_chat_activate() {
 	global $wpdb;
 	if ( !empty($wpdb->charset) )
