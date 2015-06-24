@@ -1,11 +1,11 @@
-=== Buddypress Group Chat - Only on Github ===
+=== Buddypress Group Chat===
 
 Contributors: ruddernation
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FFAC7FBEBH6JE
 Tags: group chat, buddypress group chat,video chat, tinychat, chat,buddypress chat,buddypress video chat
 Requires at least: 3.6.0
-Tested up to: 4.2
-Stable tag: 1.5.2
+Tested up to: 4.3
+Stable tag: 1.6.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,8 +13,8 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 This plugin is used for BuddyPress to add TinyChat to Groups, 
 Group creators can enable this in the admin section,
-This is instant fullscreen and has YouTube/SoundCloud enabled, 
-This also has Smileys enabled using my JavaScript file as TinyChat have now disabled them by default.
+This is instant fullscreen and has SoundCloud enabled, 
+This also has Smileys enabled using my JavaScript file as TinyChat have now disabled them by default, Tinychat seem to of disabled YouTube from working on external servers.
 
 
 == Installation ==
@@ -101,8 +101,6 @@ Example: http://www.mydomain.com/groups/groupname/ This will output the room nam
 = 1.4.9 = 
 * Major update, This is to fix the errors associated with BP_Group_Extension an group ID errors, It now checks if site is multisite and minor other fixes, Thank you to Jookkoo ( https://wordpress.org/support/profile/jookkoo )  for pointing this out.
 
-= 1.5.2 =
-* Plugin is now no longer being updated on WordPress due to their mods being on power trips.
 
 == Social Sites ==
 
@@ -115,3 +113,5 @@ Example: http://www.mydomain.com/groups/groupname/ This will output the room nam
 * Twitter - https://twitter.com/R_N_Designs
 
 * Github - https://github.com/ruddernation
+
+* WordPress - https://profiles.wordpress.org/ruddernation
