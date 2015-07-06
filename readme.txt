@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: group chat, buddypress group chat,video chat, tinychat, chat,buddypress chat,buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.3
-Stable tag: 1.6.0
+Stable tag: 1.6.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -101,6 +101,8 @@ Example: http://www.mydomain.com/groups/groupname/ This will output the room nam
 = 1.4.9 = 
 * Major update, This is to fix the errors associated with BP_Group_Extension an group ID errors, It now checks if site is multisite and minor other fixes, Thank you to Jookkoo ( https://wordpress.org/support/profile/jookkoo )  for pointing this out.
 
+= 1.6.1 =
+* Removed 'account' due to TinyChat disabling it from being used unless you're logged in on their domain.
 
 == Social Sites ==
 

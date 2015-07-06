@@ -59,11 +59,11 @@ public	function display($group_id = null) {
 <script  data-cfasync="false" src="https://www.ruddernation.info/info/js/slagmodified.js?version=1.7"></script>
 	<script  data-cfasync="false" type='text/javascript'>
 var embed;
-embed = tinychat({room: "<?php echo $name?>",<?php {echo ' account:"'.$bp->loggedin_user->fullname.'"'?>,<?php echo 'nick:"'.$bp->loggedin_user->fullname.'"'; ?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"});
+embed = tinychat({room: "<?php echo $name?>",<?php echo 'nick:"'.$bp->loggedin_user->fullname.'"'; ?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"});
 	</script>
 <div id='Ruddernation'></div></div>
             <?php
-		} }
+		} 
            else {
 			echo '<div id="message" class="error"><p>Sorry group chat is only available to group members, Please join or request to join the group.</p></div>';
 			}}} bp_register_group_extension( 'BP_tinychat_group_chat' ); ?>
