@@ -102,7 +102,8 @@ Example: http://www.mydomain.com/groups/groupname/ This will output the room nam
 * Major update, This is to fix the errors associated with BP_Group_Extension an group ID errors, It now checks if site is multisite and minor other fixes, Thank you to Jookkoo ( https://wordpress.org/support/profile/jookkoo )  for pointing this out.
 
 = 1.6.1 =
-* Removed 'account' due to TinyChat disabling it from being used unless you're logged in on their domain.
+* Removed 'account' due to TinyChat disabling it from being used unless you're logged in on their domain,
+If you're logged in the it will automatically get your account.
 
 == Social Sites ==
 
