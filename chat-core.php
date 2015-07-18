@@ -54,7 +54,7 @@ public	function display($group_id = null) {
 		global $bp;
 		if ( groups_is_user_member( $bp->loggedin_user->id, $bp->groups->current_group->id ) || groups_is_user_mod( $bp->loggedin_user->id, $bp->groups->current_group->id ) || groups_is_user_admin( $bp->loggedin_user->id, $bp->groups->current_group->id ) || is_super_admin() ) {$name=apply_filters( 'bp_get_group_name', $bp->groups->current_group->name );$name=preg_replace('/\s+/','',$name);$name=htmlspecialchars($name,ENT_QUOTES, 'UTF-8');$name=strtolower($name);?>
 			<div id="item-body">
-<style>#chat{height:100%;width:100%;left:0px;right:0px;bottom:0px;position:fixed;z-index:9999}</style>
+<style>#chat{height:98%;width:100%;left:0px;right:0px;bottom:0px;position:fixed;z-index:9999}</style>
 <div id="chat">
 <script  data-cfasync="false" src="https://www.ruddernation.info/info/js/slagmodified.js?version=1.8"></script>
 	<script  data-cfasync="false" type='text/javascript'>
