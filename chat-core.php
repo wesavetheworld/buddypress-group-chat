@@ -4,8 +4,8 @@ class BP_tinychat_group_chat extends BP_Group_Extension {
 		global $bp;
 		$this->name = 'Group Chat';
 		$this->slug = 'group-chat';
-		$this->create_step_position = 78;
-		$this->nav_item_position = 96;
+		$this->create_step_position = 378;
+		$this->nav_item_position = 396;
 		if ( groups_get_groupmeta( $bp->groups->current_group->id, 'bp_tinychat_group_chat_enabled' ) == '1' ) {
 			$this->enable_nav_item = true;
 		} else {
