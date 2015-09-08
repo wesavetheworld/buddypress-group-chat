@@ -123,3 +123,5 @@ This now shows the Google reCaptcha that TinyChat use, You may need to click on 
 * WordPress - https://profiles.wordpress.org/ruddernation
 
 * GitHub Repositories - https://ruddernation-designs.github.io
+
+* Community - http://www.ruddernation.com/social
