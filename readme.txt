@@ -44,6 +44,9 @@ Example: http://www.mydomain.com/groups/groupname/ This will output the room nam
 * Q. The chat is not loading for me.
 * A. Check to see if you have the Adobe flash player installed (http://helpx.adobe.com/flash-player.html) and JavaScript enabled in your browser.
 
+* Q. My camera/Audio is not working using my Macbook with iSight and I cannot click "Allow"
+* A. Ok, Go to http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager06.html and select always allow for tinychat.com, Then re-try your cam/mic.
+
 == Changelog ==
 
 = 1.0.0 =
