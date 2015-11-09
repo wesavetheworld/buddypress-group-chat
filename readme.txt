@@ -121,10 +121,8 @@ Removed from WordPress plug-in directory.
 
 * Facebook - https://www.facebook.com/rndtc
 
-* Twitter - https://twitter.com/R_N_Designs
-
 * Github - https://github.com/ruddernation
 
 * GitHub Repositories - https://ruddernation-designs.github.io
 
-* Community - http://www.ruddernation.com/social
+* Google Plus - https://plus.google.com/+Ruddernation/posts
