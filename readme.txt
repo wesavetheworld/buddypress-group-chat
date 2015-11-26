@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: group chat, buddypress group chat,video chat, tinychat, chat,buddypress chat,buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.3
-Stable tag: 1.6.8
+Stable tag: 1.6.9
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -111,7 +111,10 @@ Example: http://www.mydomain.com/groups/groupname/ This will output the room nam
 This now shows the Google reCaptcha that TinyChat use, You may need to click on the shield to display unsecured content as TinyChat don't currently have the encryption set.
 
 = 1.6.8 =
-Removed from WordPress plug-in directory.
+* Removed from WordPress plug-in directory.
+
+= 1.6.9 =
+* Removed "site wide only" to Network = True.
 
 == Social Sites ==
 
