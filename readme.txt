@@ -33,7 +33,7 @@ This also has Smileys enabled using my JavaScript file as TinyChat have now disa
 == Notes ==
 
 The room name is now domain/groupname
-or go to http://www.ruddernation.net/*Group Name*
+or go to http://www.ruddernation.info/*Group Name*
 Example: http://www.mydomain.com/groups/groupname/ This will output the room name to *Group Name*.
 
 == Frequently Asked Questions ==

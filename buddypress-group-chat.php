@@ -10,7 +10,7 @@
 * Requires at least: WordPress 4.0, BuddyPress 2.0
 * Tested up to: WordPress 4.3, BuddyPress 2.3
 * Network: true
-* Date: 26th Novemeber 2015
+* Date: 02nd December 2015
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * Important - Only load if BuddyPress Groups is activated! - This will now check if it is enabled.
