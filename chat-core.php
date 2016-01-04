@@ -57,7 +57,7 @@ public	function display($group_id = null) {
 <style>#chat{height:98%;width:100%;left:0px;right:0px;bottom:0px;position:fixed;z-index:9999}</style>
 <div id="chat">
 <script type=text/javascript>
-var tinychat = {room: "<?php echo $name?>",<?php echo 'nick:"'.$bp->loggedin_user->fullname.'"'; ?>, <?php echo 'wmode:"transparent"'?>,<?php echo 'youtube:"all"'?>,<?php echo 'prohash:"I've added this to stop errors with the Fx feature"'?>,<?php echo 'chatSmileys:"true"'?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"};
+var tinychat = {room: "<?php echo $name?>",<?php echo 'nick:"'.$bp->loggedin_user->fullname.'"'; ?>, <?php echo 'wmode:"transparent"'?>,<?php echo 'youtube:"all"'?>,<?php echo 'prohash:"I have added this to stop errors with the Fx feature"'?>,<?php echo 'chatSmileys:"true"'?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"};
 	</script>
 <script src="https://www.ruddernation.com/info/js/eslag.js"></script>
 <div id="client"> </div></div>
