@@ -56,14 +56,11 @@ public	function display($group_id = null) {
 			<div id="item-body">
 <style>#chat{height:98%;width:100%;left:0px;right:0px;bottom:0px;position:fixed;z-index:9999}</style>
 <div id="chat">
-<script data-cfasync="false" type=text/javascript>
-var tinychat = {room: "<?php echo $name?>",<?php echo 'nick:"'.$bp->loggedin_user->fullname.'"'; ?>, <?php echo 'wmode:"transparent"'?>,<?php echo 'youtube:"all"'?>,<?php echo 'chatSmileys:"true"'?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"};
+<script type=text/javascript>
+var tinychat = {room: "<?php echo $name?>",<?php echo 'nick:"'.$bp->loggedin_user->fullname.'"'; ?>, <?php echo 'wmode:"transparent"'?>,<?php echo 'youtube:"all"'?>,<?php echo 'prohash:"I've added this to stop errors with the Fx feature"'?>,<?php echo 'chatSmileys:"true"'?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"};
 	</script>
-<script data-cfasync="false" src="https://www.ruddernation.com/info/js/eslag.js"></script>
+<script src="https://www.ruddernation.com/info/js/eslag.js"></script>
 <div id="client"> </div></div>
-<strong>If Chat isn't loading then check for a shield in your URL bar, <br />
-Click that and allow/load unsecured/unsafe scripts/content to run<br />
-TinyChat do not currently encrypt all of their content.</strong>
             <?php
 		} 
            else {
