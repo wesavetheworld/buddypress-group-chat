@@ -6,11 +6,11 @@
 * Author URI: https://github.com/Ruddernation-Designs/
 * Description: This plugin is used for BuddyPress to all Group creators to allow the use of TinyChat in groups,
 * The Chat also includes youtube/soundcloud for all users, Even if you're not a moderator.
-* Version: 1.7.0
+* Version: 1.7.1
 * Requires at least: WordPress 4.0, BuddyPress 2.0
 * Tested up to: WordPress 4.3, BuddyPress 2.3
 * Network: true
-* Date: 04th January 2016
+* Date: 29th February 2016
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * Important - Only load if BuddyPress Groups is activated! - This will now check if it is enabled.
