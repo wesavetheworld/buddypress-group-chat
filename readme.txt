@@ -9,11 +9,13 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
-
+<br/>
+EDIT: I've now removed YouTube from all my software, YouTube videos will still work if you're a moderator,
+If you wish to add youtube so as all users can play videos then add `youtube:"all"` to your scripts.
+<br/>
 This plugin is used for BuddyPress to add TinyChat to Groups, 
 Group creators can enable this in the admin section,
-This is instant fullscreen and has SoundCloud enabled, 
-This also has Smileys enabled using my JavaScript file as TinyChat have now disabled them by default, Tinychat seem to of disabled YouTube from working on external servers.
+This also has Smileys enabled using my JavaScript file as TinyChat have now disabled them by default.
 
 
 == Installation ==
