@@ -52,15 +52,32 @@ public	function edit_screen_save($group_id = null) {
 		bp_core_redirect( bp_get_group_permalink( $bp->groups->current_group ) . 'admin/' . $this->slug );}
 public	function display($group_id = null) {
 		global $bp;
-		if ( groups_is_user_member( $bp->loggedin_user->id, $bp->groups->current_group->id ) || groups_is_user_mod( $bp->loggedin_user->id, $bp->groups->current_group->id ) || groups_is_user_admin( $bp->loggedin_user->id, $bp->groups->current_group->id ) || is_super_admin() ) {$name=apply_filters( 'bp_get_group_name', $bp->groups->current_group->name );$name=preg_replace('/\s+/','',$name);$name=htmlspecialchars($name,ENT_QUOTES, 'UTF-8');$name=strtolower($name);?>
+		if ( groups_is_user_member( $bp->loggedin_user->id, $bp->groups->current_group->id ) || groups_is_user_mod( $bp->loggedin_user->id, $bp->groups->current_group->id ) || groups_is_user_admin( $bp->loggedin_user->id, $bp->groups->current_group->id ) || is_super_admin() ) {
+		$name=apply_filters( 'bp_get_group_name', $bp->groups->current_group->name );
+		if(preg_match('/^[a-z0-9]/', $name=strtolower($name), $name=strip_tags($name)))
+{
+		$name=preg_replace('/[^a-zA-Z0-9]/','',$name);
+		$prohash = hash('sha256',filter_input(INPUT_SERVER, 'HTTP_CLIENT_IP'));
+		}?>
 			<div id="item-body">
 <style>#chat{height:98%;width:100%;left:0px;right:0px;bottom:0px;position:fixed;z-index:9999}</style>
-<div id="chat">
-<script type=text/javascript>
-var tinychat = {room: "<?php echo $name?>",<?php echo 'nick:"'.$bp->loggedin_user->fullname.'"'; ?>, <?php echo 'wmode:"transparent"'?>,<?php echo 'desktop:"true"'?>,<?php echo 'langdefault:"en"'?>,<?php echo 'prohash:"I have added this to stop errors with the Fx feature"'?>,<?php echo 'chatSmileys:"true"'?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"};
-	</script>
+
+<?php
+echo '<div id="chat">
+<script type="text/javascript">
+var tinychat = ({
+		room: "'.$name.'", 
+		prohash: "'.$prohash.'",
+		nick: "'.$bp->loggedin_user->fullname.'",
+		wmode:"transparent",
+		chatSmileys:"true", 
+		youtube:"all",
+		urlsuper: "'.filter_input(INPUT_SERVER, 'HTTP_HOST'). filter_input(INPUT_SERVER, 'REQUEST_URI').'", 
+		desktop:"true",
+		langdefault:"en"});
+		</script>
 <script src="https://www.ruddernation.com/info/js/eslag.js"></script>
-<div id="client"> </div></div>
+<div id="client"></div></div>';?>
             <?php
 		} 
            else {
