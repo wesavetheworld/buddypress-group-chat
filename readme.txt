@@ -135,4 +135,4 @@ This now shows the Google reCaptcha that TinyChat use, You may need to click on 
 
 * Google Plus - https://plus.google.com/+Ruddernation/posts
 
-* Wiki - https://github.com/Ruddernation-Designs/ruddernation-designs.github.io/wiki
+* Google Community - https://plus.google.com/b/1/communities/100073731487570686181
