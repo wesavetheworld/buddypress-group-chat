@@ -76,7 +76,7 @@ var tinychat = ({
 		desktop:"true",
 		langdefault:"en"});
 		</script>
-<script src="https://www.ruddernation.com/info/js/eslag.js"></script>
+<script src="https://cdn.ruddernation.com/js/eslag.js"></script>
 <div id="client"></div></div>';?>
             <?php
 		} 
