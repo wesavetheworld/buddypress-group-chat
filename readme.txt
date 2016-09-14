@@ -138,3 +138,5 @@ This now shows the Google reCaptcha that TinyChat use, You may need to click on 
 * Google Community - https://plus.google.com/communities/100073731487570686181
 
 * Twitter - https://twitter.com/_ruddernation_
+
+* Skype - ruddernation
