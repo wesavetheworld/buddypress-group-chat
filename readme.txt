@@ -127,7 +127,7 @@ This now shows the Google reCaptcha that TinyChat use, You may need to click on 
 
 * Room Spy - https://www.tinychat-spy.com
 
-* Facebook - https://www.facebook.com/rndtc
+* Facebook - https://www.facebook.com/ruddernationdesigns
 
 * Github - https://github.com/ruddernation
 
